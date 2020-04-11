@@ -1,0 +1,4 @@
+currencyconfactms.server.port: 8081
+convertcurrencyms.server.port: 0
+currencyconfactms.configserver.url: http://localhost:8888
+convertcurrencyms.configserver.url: http://localhost:8888
