@@ -10,3 +10,7 @@ spring:
         uri: lb://currencyconfactms
         predicates:
         - Path=/confact/**
+      - id: accountlogin
+        uri: lb://accountlogin
+        predicates:
+        - Path=/account/**
