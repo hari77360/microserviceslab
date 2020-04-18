@@ -1,0 +1,7 @@
+productms.server.port: 
+h2.console.path: /h2
+datasource.url: jdbc:h2:mem:ProductDB;DB_CLOSE_ON_EXIT=FALSE
+datasource.username: sa
+datasource.password:
+h2.driver.classname: org.h2.Driver
+productms.configserver.url: http://localhost:8888

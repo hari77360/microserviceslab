@@ -14,3 +14,7 @@ spring:
         uri: lb://accountlogin
         predicates:
         - Path=/account/**
+      - id: productms
+        uri: lb://productms
+        predicates:
+        - Path=/product/**
