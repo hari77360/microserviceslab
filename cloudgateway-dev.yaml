@@ -18,3 +18,7 @@ spring:
         uri: lb://productms
         predicates:
         - Path=/product/**
+      - id: cartms
+        uri: lb://cartms
+        predicates:
+        - Path=/cart/**
